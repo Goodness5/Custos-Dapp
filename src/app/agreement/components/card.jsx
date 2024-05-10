@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import { baseSepolia } from "thirdweb/chains";
 import abi from "../../../utils/agreementAbi.json";
 import { client } from "@/utils/thirdwebclient";
