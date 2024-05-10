@@ -2,7 +2,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/navbar";
-import CustomCard from "../Agreement/components/card";
+import CustomCard from "./components/card";
 import Modal from "react-modal";
 import AgreementModal from "./components/createAgrement";
 import { baseSepolia } from "thirdweb/chains";
