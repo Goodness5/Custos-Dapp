@@ -1,5 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useState } from "react";
+import {
+  getContract,
+  sendTransaction,
+  waitForReceipt,
+  prepareContractCall,
+} from "thirdweb";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
