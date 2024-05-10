@@ -50,10 +50,10 @@ export default function CustomCard({ agreement }) {
   }, [])
   
   const validateCheck = () => {
-    if (agreement.firstParty === wallet.getAccounts().address) {
+    if (agreement.firstParty === wallet?.getAccounts().address) {
       setIsSigner(false);
       setIsValidator(true);
-    } else if (agreement.secondParty === wallet.getAccounts().address) {
+    } else if (agreement.secondParty === wallet?.getAccounts().address) {
       setIsValidator(false);
       setIsSigner(true);
     } else {
